@@ -1,0 +1,61 @@
+/* Así se resetea un website, para partir de una base! */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* *********************** */
+
+html{ /*Estos cambios aplican a todo el documento html*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em; /*equivale a 16px*/
+}
+
+.header{
+    background-color: blue;
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    height: 80px;
+    
+}
+
+#titulo{
+    color: white;
+    padding-left: 1%;
+    
+}
+
+.cuerpo{
+    margin-left: 10%;
+    margin-right: 10%;
+    /*display: flex;*/
+}
+
+.navbar{
+    margin-top: 10px;
+}
+
+.navbar ul{
+    color: white;
+    background-color: midnightblue;
+    list-style-type: none;
+    text-align: right;
+    
+}
+
+.navbar ul li a{
+    text-decoration: none;/*Como quitarle el formato subrayado a un ancla?*/
+    color: white;
+}
+
+.navbar ul li a:hover{
+    background: red;
+    color: black;
+}
+
+.final p{
+    background-color:deepskyblue;
+    color: white;
+    text-align: center;
+    height: 30px;
+    
+}
